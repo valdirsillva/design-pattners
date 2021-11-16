@@ -1,0 +1,19 @@
+{
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "LUNCH\\": [
+                "src/LUNCH",
+                "tests/LUNCH/"
+            ],
+
+            "LUNCH\\DesignPatterns\\" :[
+                "src/LUNCH/DesignPatterns",
+                "tests/LUNCH/DesignPatterns"
+            ]
+        }
+    }
+}
